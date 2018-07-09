@@ -1,0 +1,31 @@
+any 任意类型
+
+boolean 布尔值
+
+number 数值类型
+
+string 字符串类型
+
+void 返回值为空
+
+never 永远没有返回
+
+Enum 枚举类型
+
+Tuple 元祖
+
+----- 规定数组中每一个item的类型
+
+{
+    let hu:[string,number] = ['a',34];
+}
+
+Array 数组
+
+------ 数组
+
+{
+    Array<string>;
+
+    string[];
+}
