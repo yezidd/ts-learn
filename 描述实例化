@@ -1,0 +1,9 @@
+interface MyDateInit {
+    new (year:string,month:string,day:string):MyDate
+}
+//指的是 此接口可以被实例化，返回一个MyDate类型实例
+
+class DateClass implements MyDate {
+
+    //实现此接口的类
+}

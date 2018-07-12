@@ -1,0 +1,15 @@
+interface InitFunc {
+      (options:Db):string
+}
+
+let myFunc : InitFunc = function(opts:Db){
+    return '';
+}
+
+这个描述函数接口指的是 参数为Db 然后返回字符串的函数
+
+也可以转化为下面的数据
+
+let myFunc: (opt:Db)=>string  = function(opts:Db){
+       return '';
+}

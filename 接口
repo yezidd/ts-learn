@@ -1,0 +1,13 @@
+class中protect和private
+
+public 是默认的
+
+protect 和 public 可以被继承
+
+protect 和 private 在外部访问不到
+
+可选属性
+
+加一个?表示可传可不穿
+
+见personInterface.ts
